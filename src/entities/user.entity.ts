@@ -23,7 +23,7 @@ export class UserEntity {
   @Column()
   date_of_birth: Date;
 
-  @Column({ unique: true })
+  @Column()
   phone: string;
 
   @CreateDateColumn()
